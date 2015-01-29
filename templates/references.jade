@@ -1,2 +1,14 @@
-h3 References
-p (todo)
+h3(style='color: #FF7700') REFERENCES
+table.u-full-width
+  thead
+    tr
+      th NAME
+      th EMAIL
+      th COMPANY
+  tbody
+  each item, i in contents['references.json'].metadata     
+    tr(style="background-color: rgba(200,200,200,"+(i%2==0?0.2:0)+")")
+      td= item.name
+      td= item.email
+      td= item.company
+hl

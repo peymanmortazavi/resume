@@ -1,2 +1,7 @@
-h3 Honors
-p (todo)
+h3(style='color: #9900FF') HONORS
+-color = ["rgba(253, 174, 228, 0.5)", "rgba(255, 103, 207, 0.5)", "rgba(255, 35, 185, 0.5)", "rgba(197, 0, 135, 0.5)", "rgba(104, 0, 71, 0.5)"]
+each item in contents['honors.json'].metadata
+   h5(style="padding: 0px; border-radius: 5px; height: 20px")= item.name
+
+
+hr

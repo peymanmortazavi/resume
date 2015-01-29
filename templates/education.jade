@@ -1,2 +1,12 @@
-h3 Education
-p (todo)
+h3(style='color: #FFAF40') EDUCATION
+
+each item in contents['education.json'].metadata
+   div.row(style='width: 50%')
+      img(src='images/' + item.image, style='margin-bottom: 10px; border-radius: 5px; border-color: white; width: 150px; height: 150px')
+      h5
+         =item.school
+      h6
+         =item.description
+      =item.date
+
+hr

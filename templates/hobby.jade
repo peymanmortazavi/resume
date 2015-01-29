@@ -1,11 +1,12 @@
-h3 Hobby
+h3(style='color: #D147B2') HOBBY
 table.u-full-width
   thead
     tr
-      th Name
-      th Experience
+      th NAME
+      th EXPERIENCE
   tbody
   each hobby in contents['hobby.json'].metadata     
     tr
       td= hobby.name
-      td= hobby.years + ' years'
+      td= hobby.years + ' year' + (hobby.years > 1 ? 's' : '')
+hl

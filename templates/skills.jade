@@ -1,2 +1,7 @@
-h3 Skills
-p (todo)
+h3(style='color: #00C71E') SKILLS
+-color = ["rgba(253, 174, 228, 0.5)", "rgba(255, 103, 207, 0.5)", "rgba(255, 35, 185, 0.5)", "rgba(197, 0, 135, 0.5)", "rgba(104, 0, 71, 0.5)"]
+each item in contents['skills.json'].metadata
+   p(style="padding: 10px; background-color: " + color[item.size-1] + "; border-radius: 5px; width: "+10*item.size+"%; height: 20px")= item.name
+
+
+hr

@@ -1,1 +1,6 @@
-[]
+[{
+	"school": "University of Colorado Boulder",
+	"image": "buff.png",
+	"description" : "B.S. Computer Science.",
+	"date": "Expected Graduation Date: December 2016"
+}]

@@ -1,14 +1,21 @@
-h3 Portfolio
-each item in contents["portfolio.json"].metadata
-	p
-	h5= item.projectTitle
-	h6= item.description
-	table
-	tbody
-		each imageName in item.images
-			tr
-				td 
-					img(src='images/' + imageName, width='30%', height='30%')
+h3(style='color: #FFAF40') PORTFOLIO
 
-	p
-	p
+div.row(style='background-color: rgba(200, 200, 200, 0.5); border-radius: 10px; padding: 50px; box-shadow: 0px 0px 5px rgb(130, 130, 130); background-size: cover; background-image: url("http://www.freevectors.me/wp-content/uploads/2013/08/Graph-Paper-Texture.jpg")')
+   each item in contents["portfolio.json"].metadata
+      p
+      h4= item.projectTitle
+      h6= item.description
+      if(item.platforms.indexOf("android")>-1)
+         img(src="http://www.58bits.com/sites/default/files/public/wp-content/uploads/2012/09/android_1.png", style="width: 40px; height: 40px; border: 0px; margin-left: 10px")
+
+      if(item.platforms.indexOf("ios")>-1)
+         img(src="http://globalappinitiative.org/wp-content/themes/GlobalAppInitiative/img/main_experience_apple.png", style="width: 35px; height: 40px; border: 0px; margin-left: 10px")
+
+      if(item.platforms.indexOf("html")>-1)   
+         img(src="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png", style="width: 35px; height: 40px; border: 0px; margin-left: 10px")
+
+      p
+         each imageName in item.images
+             img(src='images/' + imageName, width='30%', height='30%', style="border: 0px; box-shadow: 0px 0px 5px rgb(130, 130, 130); border-radius: 10px; margin-right: 10px; margin-top:20px")
+
+hr

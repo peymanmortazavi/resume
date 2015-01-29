@@ -1,1 +1,9 @@
-[]
+[	{"name":"C#/.Net", "size": 5},
+    {"name":"ASP.NET vNext", "size": 5},
+	{"name":"MongoDB", "size": 4},
+	{"name":"iOS", "size": 4},
+	{"name":"JavaScript", "size": 4},
+	{"name":"Python", "size":3},
+	{"name":"C++", "size":2},
+	{"name":"Java", "size":2},
+	{"name":"Android SDK", "size":1}]

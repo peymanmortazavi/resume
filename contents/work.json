@@ -1,0 +1,15 @@
+[{
+    "position": "Software Developer",
+    "companyInformation": ["CAIL Mobile Solutions, Inc.", "October 2013 - Present", "Toronto, Canada"],
+    "bulletPoints": ["Designed object relation models.", "Developed iOS and Android apps with Xamarin (Mono/.Net)", "Designed database schema for a NoSQL database (MongoDB)","Developed a REST API following most of the standards of REST"]
+},
+{
+	"position": "Software Developer Intern",
+    "companyInformation": ["CellTrust Corp.", "June 2013 - August 2013", "Scottsdale, AZ"],
+    "bulletPoints": ["Designed and developed a SMPP—protocol for sending/receiving short messages—gateway that supports multiple carries including T-Mobile.", "Developed an admin portal for monitoring traffic, checking message statuses, adding/removing users, etc."]
+},
+{
+	"position": "Undergraduate Research Assistant",
+    "companyInformation": ["CU Boulder", "Richard Han", "November 2012 - May 2013", "Boulder, CO"],
+    "bulletPoints": ["Found and resolved various incompatibility issues of the MyZone—a decentralized social network library written in Java—core library for Android support including encryption bugs and socket issues.", "Designed and developed part of the Android app for MyZone"]
+}]

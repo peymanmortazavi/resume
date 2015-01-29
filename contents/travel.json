@@ -1,10 +1,10 @@
 [{
-    "title": "Aspen",
-    "description": "This is a trip to Aspen. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "aspen.png"
+    "title": "New York",
+    "description": "My trip to New York was absolutely fantastic, if you don't like crowded cities where so much is happening, don't go to New York, but if you're like me...WILD...then pack your stuff already!",
+    "image": "nyc.jpg"
 },
 {
-    "title": "Boulder",
-    "description": "This is a trip to Boulder. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "boulder.png"
+    "title": "San Fransisco",
+    "description": "San Fransisco is the heaven on earth if you're a bit artsy and rich :) live the dream there. Absolutely great, I'd say it's not as chaotic as New York so it's better for those who don't like over-populated places.",
+    "image": "sanfransisco.jpg"
 }]
